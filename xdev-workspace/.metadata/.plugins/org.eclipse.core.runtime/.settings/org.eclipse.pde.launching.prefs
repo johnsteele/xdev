@@ -1,0 +1,3 @@
+Preferences.MainPage.junitWorkspaceLocation=${workspace_loc}/junit-workspace
+Preferences.MainPage.runtimeWorkspaceLocation=${workspace_loc}/runtime-
+eclipse.preferences.version=1
