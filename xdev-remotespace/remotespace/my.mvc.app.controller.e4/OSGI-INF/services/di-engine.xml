@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="my.mvc.app.controller.e4.di-engine">
-   <implementation class="my.mvc.app.controller.e4.DIEngineFunction"/>
-   <service>
-      <provide interface="org.eclipse.e4.core.contexts.IContextFunction"/>
-   </service>
-   <property name="service.context.key" type="String" value="my.mvc.app.controller.DIEngine"/>
-</scr:component>
