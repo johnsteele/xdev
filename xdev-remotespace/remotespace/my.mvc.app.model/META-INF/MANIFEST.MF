@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: my.mvc.app.model
+Bundle-Version: 1.0.0.qualifier
+Export-Package: my.mvc.app.model
+Service-Component: OSGI-INF/services/modelfactory.xml
+Bundle-ActivationPolicy: lazy

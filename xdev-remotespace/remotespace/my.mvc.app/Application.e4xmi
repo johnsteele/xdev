@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_J94HQaFkEeKUktL0NgPpqw" elementId="org.eclipse.e4.application" bindingContexts="_J94HQKFkEeKUktL0NgPpqw">
+  <children xsi:type="basic:Window" xmi:id="_G44dgKFqEeKUktL0NgPpqw" elementId="my.mvc.app.window.0" label="MVC Sample" x="20" y="20" width="500" height="500">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_gPFbUKFrEeKUktL0NgPpqw" elementId="my.mvc.app.partsashcontainer.0" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_6xwBsKFrEeKUktL0NgPpqw" elementId="my.mvc.app.partstack.0">
+        <children xsi:type="basic:Part" xmi:id="_grzMgKFrEeKUktL0NgPpqw" elementId="my.mvc.app.part.0" contributionURI="bundleclass://my.mvc.app.view/my.mvc.app.view.PersonView" label="Personlist"/>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_U9RtcKbdEeKP4MmrUeW99g" elementId="my.mvc.app.partstack.1">
+        <children xsi:type="basic:Part" xmi:id="_Vg1GcKbdEeKP4MmrUeW99g" elementId="my.mvc.app.part.1" contributionURI="bundleclass://my.mvc.app.view/my.mvc.app.view.CompanyView" label="Companylist"/>
+      </children>
+    </children>
+  </children>
+  <handlers xmi:id="_U2o9IKbhEeKP4MmrUeW99g" elementId="my.mvc.app.handler.0" contributionURI="bundleclass://my.mvc.app/my.mvc.app.handler.NewItemHandler" command="_3gd34KbhEeKP4MmrUeW99g"/>
+  <handlers xmi:id="_BH16cKblEeKP4MmrUeW99g" elementId="my.mvc.app.handler.1" contributionURI="bundleclass://my.mvc.app/my.mvc.app.handler.DeleteItemHandler" command="_-UCWEKbkEeKP4MmrUeW99g"/>
+  <bindingTables xmi:id="_8AV8gKbhEeKP4MmrUeW99g" elementId="my.mvc.app.bindingtable.0" bindingContext="_J94HQKFkEeKUktL0NgPpqw">
+    <bindings xmi:id="_-S3_0KbhEeKP4MmrUeW99g" elementId="my.mvc.app.keybinding.0" keySequence="M1+N" command="_3gd34KbhEeKP4MmrUeW99g"/>
+    <bindings xmi:id="_DU0IUKblEeKP4MmrUeW99g" elementId="my.mvc.app.keybinding.1" keySequence="M1+D" command="_-UCWEKbkEeKP4MmrUeW99g"/>
+  </bindingTables>
+  <rootContext xmi:id="_J94HQKFkEeKUktL0NgPpqw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_J94uUKFkEeKUktL0NgPpqw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_J94uUaFkEeKUktL0NgPpqw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_3gd34KbhEeKP4MmrUeW99g" elementId="my.mvc.app.newitem" commandName="New Item"/>
+  <commands xmi:id="_-UCWEKbkEeKP4MmrUeW99g" elementId="my.mvc.app.deleteitem" commandName="Delete Item"/>
+  <addons xmi:id="_J94uUqFkEeKUktL0NgPpqw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_J94uU6FkEeKUktL0NgPpqw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_J94uVKFkEeKUktL0NgPpqw" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.service" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_J94uVaFkEeKUktL0NgPpqw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_J94uVqFkEeKUktL0NgPpqw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_J94uV6FkEeKUktL0NgPpqw" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.model" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingProcessingAddon"/>
+</application:Application>
