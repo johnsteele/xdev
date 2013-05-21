@@ -6,7 +6,7 @@
          point="org.eclipse.core.runtime.products">
       <product
             name="com.steelejr.remotespace.app"
-            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+            application="at.bestsolution.efxclipse.runtime.workbench.fx.application">
          <property
                name="appName"
                value="Remote Space">
@@ -19,7 +19,18 @@
                name="applicationCSS"
                value="platform:/plugin/com.steelejr.remotespace.app/css/default.css">
          </property>
+         <property
+               name="cssTheme"
+               value="theme.default">
+         </property>
       </product>
+   </extension>
+   <extension
+         point="at.bestsolution.efxclipse.runtime.theme">
+      <theme
+            basestylesheet="css/default.css"
+            id="theme.default">
+      </theme>
    </extension>
 
 </plugin>

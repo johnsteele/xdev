@@ -1,0 +1,87 @@
+/*
+ * Login Styles
+ */
+.bitbucketWindow {
+	-fx-background-image: url("icons/default/wallpaper.png");
+	-fx-padding: 15px;
+	-fx-border-radius: 5px;
+	-fx-border-color: white;
+	-fx-border-width: 3px;
+}
+
+.bitbucketWindow .label {
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size: 15pt;
+}
+
+.bitbucketWindow .textfield {
+	-fx-font-weight: bold;
+	-fx-font-size: 15pt;
+}
+
+.bitbucketWindow GridPane {
+	-fx-padding: 5px;
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+}
+
+.h1 {
+	-fx-font-size: 30pt !important;
+	-fx-font-weight: bold; 
+}
+
+/*
+ * Application Styles
+ */
+
+.MTrimmedWindow {
+	-fx-background-image: url("icons/default/wallpaper.png");
+}
+
+ .MPerspective {
+	-fx-background-color: #ddd;
+}
+
+.MPart {
+	-fx-background-color: transparent;
+}
+
+.MPartSashContainer {
+	-fx-background-color: transparent;
+}
+
+.infoArea {
+	-fx-border-color: #999;
+	-fx-border-width: 0 0 0 1;
+}
+
+/*
+ * Runtime styles
+ */
+.titleDialog_Title {
+	-fx-font-weight: bold;
+}
+
+.titleDialog_Message {
+	-fx-padding: 0 0 0 5;
+}
+
+.titleDialog_MessageArea {
+	-fx-spacing: 5px;
+}
+
+/*
+ * Editor 
+ */
+.list-cell:filled:focused:selected {
+	-fx-background-color: #e8f2fe;
+}
+
+.list-cell:odd {
+	-fx-background-color: transparent; 
+}
+
+.list-cell:filled:hover {
+	-fx-background-color: transparent;
+}

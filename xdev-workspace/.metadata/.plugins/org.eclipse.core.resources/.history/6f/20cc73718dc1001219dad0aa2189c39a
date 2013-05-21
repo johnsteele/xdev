@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="com.steelejr.remotespace.app"
+            application="at.bestsolution.efxclipse.runtime.workbench.fx.application">
+         <property
+               name="appName"
+               value="Remote Space">
+         </property>
+         <property
+               name="applicationXMI"
+               value="com.steelejr.remotespace.app/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.steelejr.remotespace.app/css/default.css">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="at.bestsolution.efxclipse.runtime.theme">
+   </extension>
+
+</plugin>

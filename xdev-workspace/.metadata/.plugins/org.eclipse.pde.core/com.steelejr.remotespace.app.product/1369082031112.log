@@ -1,0 +1,44 @@
+!SESSION 2013-05-20 15:33:50.776 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product com.steelejr.remotespace.app.product
+Command-line arguments:  -product com.steelejr.remotespace.app.product -data /home/jroot/git/xdev/xdev/xdev-workspace/runtime-com.steelejr.remotespace.app.product -dev file:/home/jroot/git/xdev/xdev/xdev-workspace/.metadata/.plugins/org.eclipse.pde.core/com.steelejr.remotespace.app.product/dev.properties -os linux -ws gtk -arch x86 -consoleLog
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-20 15:34:01.055
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.steelejr.removespace.app/com.steelejr.removespace.app.handlers.QuitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-20 15:34:01.057
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.steelejr.removespace.app/com.steelejr.removespace.app.handlers.OpenHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-20 15:34:01.058
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.steelejr.removespace.app/com.steelejr.removespace.app.handlers.SaveHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-20 15:34:01.058
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.steelejr.removespace.app/com.steelejr.removespace.app.handlers.AboutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-20 15:35:04.682
+!MESSAGE Unable to create class 'at.bestsolution.efxclipse.runtime.workbench.fx.PartRenderingEngine' from bundle '119'
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: Could not find satisfiable constructor in at.bestsolution.efxclipse.runtime.workbench.fx.PartRenderingEngine
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:330)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:242)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:103)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:54)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.instantiateRenderer(E4Workbench.java:100)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:83)
+	at at.bestsolution.efxclipse.runtime.workbench.fx.E4Application.jfxStart(E4Application.java:114)
+	at at.bestsolution.efxclipse.runtime.application.AbstractJFXApplication$JFXApp.start(AbstractJFXApplication.java:46)
+	at com.sun.javafx.application.LauncherImpl$5.run(LauncherImpl.java:319)
+	at com.sun.javafx.application.PlatformImpl$5.run(PlatformImpl.java:215)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(PlatformImpl.java:179)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(PlatformImpl.java:176)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl$4.run(PlatformImpl.java:176)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:76)
+	at com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	at com.sun.glass.ui.gtk.GtkApplication$3$1.run(GtkApplication.java:82)
+	at java.lang.Thread.run(Thread.java:722)
