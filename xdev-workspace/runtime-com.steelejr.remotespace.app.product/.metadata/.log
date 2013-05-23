@@ -1,4 +1,4 @@
-!SESSION 2013-05-21 01:09:25.706 -----------------------------------------------
+!SESSION 2013-05-23 13:00:50.970 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.7.0_17
 java.vendor=Oracle Corporation
@@ -6,25 +6,8 @@ BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
 Framework arguments:  -product com.steelejr.remotespace.app.product
 Command-line arguments:  -product com.steelejr.remotespace.app.product -data /home/jroot/git/xdev/xdev/xdev-workspace/runtime-com.steelejr.remotespace.app.product -dev file:/home/jroot/git/xdev/xdev/xdev-workspace/.metadata/.plugins/org.eclipse.pde.core/com.steelejr.remotespace.app.product/dev.properties -os linux -ws gtk -arch x86 -consoleLog
 
-!ENTRY org.eclipse.osgi 2 0 2013-05-21 01:09:27.582
-!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
-!SUBENTRY 1 org.eclipse.osgi 2 0 2013-05-21 01:09:27.582
-!MESSAGE Bundle at.bestsolution.efxclipse.runtime.osgi_0.8.1.201303112105 [87] was not resolved.
-
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-21 01:09:28.587
-!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.steelejr.removespace.app/com.steelejr.removespace.app.handlers.QuitHandler
-
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-21 01:09:28.588
-!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.steelejr.removespace.app/com.steelejr.removespace.app.handlers.OpenHandler
-
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-21 01:09:28.588
-!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.steelejr.removespace.app/com.steelejr.removespace.app.handlers.SaveHandler
-
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-21 01:09:28.589
-!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.steelejr.removespace.app/com.steelejr.removespace.app.handlers.AboutHandler
-
-!ENTRY org.eclipse.equinox.event 4 0 2013-05-21 01:09:28.789
-!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/widget/SET] to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@2c4c62
+!ENTRY org.eclipse.equinox.event 4 0 2013-05-23 13:00:58.248
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/widget/SET] to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@16dc6c9
 !STACK 0
 java.lang.ClassCastException: at.bestsolution.efxclipse.runtime.workbench.renderers.fx.DefWindowRenderer$WWindowImpl cannot be cast to org.eclipse.swt.widgets.Widget
 	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon$1.handleEvent(DnDAddon.java:41)
@@ -63,8 +46,8 @@ java.lang.ClassCastException: at.bestsolution.efxclipse.runtime.workbench.render
 	at com.sun.glass.ui.gtk.GtkApplication$3$1.run(GtkApplication.java:82)
 	at java.lang.Thread.run(Thread.java:722)
 
-!ENTRY org.eclipse.equinox.event 4 0 2013-05-21 01:09:29.197
-!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/ElementContainer/selectedElement/SET] to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@1507e67
+!ENTRY org.eclipse.equinox.event 4 0 2013-05-23 13:00:58.768
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/ElementContainer/selectedElement/SET] to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@b0a165
 !STACK 0
 java.lang.ClassCastException: at.bestsolution.efxclipse.runtime.workbench.renderers.fx.DefWindowRenderer$WWindowImpl cannot be cast to org.eclipse.swt.widgets.Shell
 	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon$6.handleEvent(MinMaxAddon.java:325)

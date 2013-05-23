@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="884" class="org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator" localization="plugin" name="%pluginName" project="org.eclipse.e4.ui.workbench.swt" provider="%providerName"/>
+	<bundle bundleID="871" localization="OSGI-INF/l10n/bundle" name="Controls" project="at.bestsolution.efxclipse.runtime.workbench.fx.controls">
+		<library name="libs/api.jar"/>
+		<library name="."/>
+		<library name="libs/fx2.jar"/>
+		<library name="libs/fx8.jar"/>
+	</bundle>
+	<bundle bundleID="876" class="com.steelejr.remotespace.runtime.workbench.Activator" localization="OSGI-INF/l10n/bundle" name="Workbench" project="com.steelejr.remotespace.runtime.workbench" provider="STEELEJR"/>
+	<bundle bundleID="867" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.services" provider="%Bundle-Vendor"/>
+	<bundle bundleID="875" class="com.steelejr.remotespace.model.Activator" localization="OSGI-INF/l10n/bundle" name="Model" project="com.steelejr.remotespace.model" provider="STEELEJR"/>
+	<bundle bundleID="883" class="org.eclipse.e4.ui.internal.workbench.renderers.swt.SWTRenderersActivator" localization="plugin" name="%pluginName" project="org.eclipse.e4.ui.workbench.renderers.swt" provider="%providerName"/>
+	<bundle bundleID="880" localization="plugin" name="%pluginName" project="org.eclipse.e4.ui.widgets" provider="%providerName"/>
+	<bundle bundleID="878" class="com.steelejr.remotespace.ui.services.Activator" localization="OSGI-INF/l10n/bundle" name="Services" project="com.steelejr.remotespace.ui.services" provider="STEELEJR"/>
+	<bundle bundleID="866" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.panels" provider="%Bundle-Vendor"/>
+	<bundle bundleID="873" localization="OSGI-INF/l10n/bundle" name="Fx" project="at.bestsolution.efxclipse.runtime.workbench.renderers.fx"/>
+	<bundle bundleID="881" class="org.eclipse.e4.ui.internal.workbench.Activator" localization="plugin" name="%pluginName" project="org.eclipse.e4.ui.workbench" provider="%providerName"/>
+	<bundle bundleID="856" localization="OSGI-INF/l10n/bundle" name="Animationutils" project="at.bestsolution.efxclipse.runtime.animationutils" provider="BestSolution.at"/>
+	<bundle bundleID="868" class="at.bestsolution.efxclipse.runtime.theme.internal.Activator" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.theme" provider="%Bundle-Vendor"/>
+	<bundle bundleID="859" localization="OSGI-INF/l10n/bundle" name="E4" project="at.bestsolution.efxclipse.runtime.bindings.e4"/>
+	<bundle bundleID="877" class="com.steelejr.remotespace.ui.Activator" localization="OSGI-INF/l10n/bundle" name="Ui" project="com.steelejr.remotespace.ui" provider="STEELEJR"/>
+	<bundle bundleID="870" class="at.bestsolution.efxclipse.runtime.workbench.fx.internal.WorkbenchJFXActivator" localization="OSGI-INF/l10n/bundle" name="Fx" project="at.bestsolution.efxclipse.runtime.workbench.fx"/>
+	<bundle bundleID="874" class="com.steelejr.remotespace.app.Activator" localization="OSGI-INF/l10n/bundle" name="App" project="com.steelejr.remotespace.app" provider="STEELEJR"/>
+	<bundle bundleID="882" localization="plugin" name="%pluginName" project="org.eclipse.e4.ui.workbench.addons.swt" provider="%providerName"/>
+	<bundle bundleID="857" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.application" provider="%Bundle-Vendor"/>
+	<bundle bundleID="864" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.osgi" provider="%Bundle-Vendor"/>
+	<bundle bundleID="865" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.osgi.util" provider="%Bundle-Vendor"/>
+	<bundle bundleID="860" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.databinding" provider="%Bundle-Vendor"/>
+	<bundle bundleID="879" class="org.eclipse.e4.ui.model.application.impl.MWorkbenchModelActivator$Implementation" localization="plugin" name="%pluginName" project="org.eclipse.e4.ui.model.workbench" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="869" localization="OSGI-INF/l10n/bundle" name="Base" project="at.bestsolution.efxclipse.runtime.workbench.base"/>
+	<bundle bundleID="863" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.javafx" provider="%Bundle-Vendor">
+		<library name="at.bestsolution.efxclipse.runtime.javafx_2.2.0.201303112105.jar"/>
+	</bundle>
+	<bundle bundleID="872" localization="OSGI-INF/l10n/bundle" name="Base" project="at.bestsolution.efxclipse.runtime.workbench.renderers.base"/>
+	<bundle bundleID="862" localization="OSGI-INF/l10n/bundle" name="Dialogs" project="at.bestsolution.efxclipse.runtime.dialogs"/>
+	<bundle bundleID="861" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.di" provider="%Bundle-Vendor"/>
+	<bundle bundleID="858" localization="OSGI-INF/l10n/bundle" name="Bindings" project="at.bestsolution.efxclipse.runtime.bindings"/>
+	<bundle bundleID="886" class="test.Activator" localization="OSGI-INF/l10n/bundle" name="Test" project="test"/>
+</map>

@@ -1,0 +1,43 @@
+!SESSION 2013-05-23 12:29:45.139 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product com.steelejr.remotespace.app.product
+Command-line arguments:  -product com.steelejr.remotespace.app.product -data /home/jroot/git/xdev/xdev/xdev-workspace/runtime-com.steelejr.remotespace.app.product -dev file:/home/jroot/git/xdev/xdev/xdev-workspace/.metadata/.plugins/org.eclipse.pde.core/com.steelejr.remotespace.app.product/dev.properties -os linux -ws gtk -arch x86 -consoleLog
+
+!ENTRY org.eclipse.osgi 2 0 2013-05-23 12:29:46.373
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-05-23 12:29:46.373
+!MESSAGE Bundle at.bestsolution.efxclipse.runtime.osgi_0.8.1.201303112105 [87] was not resolved.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-05-23 12:29:47.227
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://at.bestsolution.efxclipse.runtime.workbench.renderers.fx/at.bestsolution.efxclipse.runtime.workbench.renderers.fx.DefWorkbenchRendererFactory
+
+!ENTRY org.eclipse.equinox.app 4 0 2013-05-23 12:29:47.283
+!MESSAGE Exception in Application start method
+!STACK 0
+java.lang.RuntimeException: Exception in Application start method
+	at com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:403)
+	at com.sun.javafx.application.LauncherImpl.access$000(LauncherImpl.java:47)
+	at com.sun.javafx.application.LauncherImpl$1.run(LauncherImpl.java:115)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.NullPointerException
+	at at.bestsolution.efxclipse.runtime.workbench.fx.PartRenderingEngine.getRenderer(PartRenderingEngine.java:162)
+	at at.bestsolution.efxclipse.runtime.workbench.fx.PartRenderingEngine.createWidget(PartRenderingEngine.java:147)
+	at at.bestsolution.efxclipse.runtime.workbench.fx.PartRenderingEngine.createGui(PartRenderingEngine.java:114)
+	at at.bestsolution.efxclipse.runtime.workbench.fx.PartRenderingEngine.createGui(PartRenderingEngine.java:220)
+	at at.bestsolution.efxclipse.runtime.workbench.fx.PartRenderingEngine.run(PartRenderingEngine.java:335)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at at.bestsolution.efxclipse.runtime.workbench.fx.E4Application.jfxStart(E4Application.java:114)
+	at at.bestsolution.efxclipse.runtime.application.AbstractJFXApplication$JFXApp.start(AbstractJFXApplication.java:46)
+	at com.sun.javafx.application.LauncherImpl$5.run(LauncherImpl.java:319)
+	at com.sun.javafx.application.PlatformImpl$5.run(PlatformImpl.java:215)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(PlatformImpl.java:179)
+	at com.sun.javafx.application.PlatformImpl$4$1.run(PlatformImpl.java:176)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl$4.run(PlatformImpl.java:176)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:76)
+	at com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	at com.sun.glass.ui.gtk.GtkApplication$3$1.run(GtkApplication.java:82)
+	... 1 more

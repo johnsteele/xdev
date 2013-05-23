@@ -4,7 +4,6 @@
 <product name="remotespace" id="org.eclipse.epp.package.rcp.product" application="at.bestsolution.efxclipse.runtime.workbench.fx.application" version="1.0.0" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
-      <linux>/com.steelejr.remotespace.app.product/configuration/config.ini</linux>
    </configIni>
 
    <launcherArgs>

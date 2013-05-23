@@ -1,5 +1,6 @@
 package com.steelejr.remotespace.ui;
 
+import org.eclipse.e4.core.di.extensions.Preference;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
