@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Services
+Bundle-SymbolicName: com.steelejr.remotespace.core.services
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: STEELEJR
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.framework;version="1.7.0"

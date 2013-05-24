@@ -230,19 +230,6 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "org.eclipse.core.runtime",
-    "version": {
-      "major": 3,
-      "minor": 8,
-      "micro": 0,
-      "qualifier": "v20120912-155025"
-    },
-    "jarFileFingerprint": "07e7d1ad93a50e4989b63a5b352ae7fb0f408274",
-    "jarFileModificationDate": "2013-02-24T23:43:26-06:00",
-    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.runtime_3.8.0.v20120912-155025.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "org.eclipse.e4.core.services",
     "version": {
       "major": 1,
@@ -256,17 +243,17 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "jre",
+    "symbolicName": "org.eclipse.core.runtime",
     "version": {
-      "major": 1,
-      "minor": 0,
+      "major": 3,
+      "minor": 8,
       "micro": 0,
-      "qualifier": ""
+      "qualifier": "v20120912-155025"
     },
-    "jarFileFingerprint": "782acfaeaa346294a7a405b273cd4540dc8accfe",
-    "jarFileModificationDate": "2013-03-01T05:34:44-06:00",
-    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jsse.jar",
-    "javaRuntime": true
+    "jarFileFingerprint": "07e7d1ad93a50e4989b63a5b352ae7fb0f408274",
+    "jarFileModificationDate": "2013-02-24T23:43:26-06:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.runtime_3.8.0.v20120912-155025.jar",
+    "javaRuntime": false
   },
   {
     "symbolicName": "jre",
@@ -279,6 +266,19 @@
     "jarFileFingerprint": "f831655c50b92c41e366442d09511ea84270c45e",
     "jarFileModificationDate": "2013-03-01T05:10:39-06:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "782acfaeaa346294a7a405b273cd4540dc8accfe",
+    "jarFileModificationDate": "2013-03-01T05:34:44-06:00",
+    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jsse.jar",
     "javaRuntime": true
   },
   {
@@ -571,18 +571,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "org.eclipse.e4.ui.workbench.addons.swt",
-    "version": {
-      "major": 0,
-      "minor": 10,
-      "micro": 3,
-      "qualifier": "v20130124-185622"
-    },
-    "jarFileModificationDate": "2013-04-12T10:56:06-05:00",
-    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/org.eclipse.e4.ui.workbench.addons.swt/src",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "at.bestsolution.efxclipse.runtime.bindings.e4",
     "version": {
       "major": 0,
@@ -595,16 +583,30 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "org.eclipse.e4.ui.workbench.swt",
+    "symbolicName": "org.eclipse.core.databinding",
     "version": {
-      "major": 0,
-      "minor": 10,
-      "micro": 3,
-      "qualifier": "v20130124-133900"
+      "major": 1,
+      "minor": 4,
+      "micro": 1,
+      "qualifier": "v20120912-132807"
     },
-    "jarFileModificationDate": "2013-04-12T10:55:55-05:00",
-    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/org.eclipse.e4.ui.workbench.swt/src",
+    "jarFileFingerprint": "5436d2164b592f15b90c036bf51a8b8df6700514",
+    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.databinding_1.4.1.v20120912-132807.jar",
     "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "49b1d94e8992863d0c310919ab69af9864098a0e",
+    "jarFileModificationDate": "2013-03-01T05:34:42-06:00",
+    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/rt.jar",
+    "javaRuntime": true
   },
   {
     "symbolicName": "org.apache.batik.css",
@@ -633,29 +635,15 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "jre",
+    "symbolicName": "org.eclipse.e4.ui.widgets",
     "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
+      "major": 0,
+      "minor": 12,
+      "micro": 3,
+      "qualifier": "v20130123-162658"
     },
-    "jarFileFingerprint": "49b1d94e8992863d0c310919ab69af9864098a0e",
-    "jarFileModificationDate": "2013-03-01T05:34:42-06:00",
-    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/rt.jar",
-    "javaRuntime": true
-  },
-  {
-    "symbolicName": "org.eclipse.core.databinding",
-    "version": {
-      "major": 1,
-      "minor": 4,
-      "micro": 1,
-      "qualifier": "v20120912-132807"
-    },
-    "jarFileFingerprint": "5436d2164b592f15b90c036bf51a8b8df6700514",
-    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
-    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.databinding_1.4.1.v20120912-132807.jar",
+    "jarFileModificationDate": "2013-04-12T10:56:14-05:00",
+    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/org.eclipse.e4.ui.widgets/src",
     "javaRuntime": false
   },
   {
@@ -672,15 +660,15 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "org.eclipse.e4.ui.widgets",
+    "symbolicName": "test",
     "version": {
-      "major": 0,
-      "minor": 12,
-      "micro": 3,
-      "qualifier": "v20130123-162658"
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-04-12T10:56:14-05:00",
-    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/org.eclipse.e4.ui.widgets/src",
+    "jarFileModificationDate": "2013-05-23T12:39:57-05:00",
+    "location": "/home/jroot/git/xdev/xdev/xdev-workspace/test/src",
     "javaRuntime": false
   },
   {
@@ -748,16 +736,17 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "at.bestsolution.efxclipse.runtime.workbench.fx.controls",
+    "symbolicName": "jre",
     "version": {
-      "major": 0,
-      "minor": 8,
-      "micro": 1,
-      "qualifier": "qualifier"
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
     },
-    "jarFileModificationDate": "2013-04-22T10:55:51-05:00",
-    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/at.bestsolution.efxclipse.runtime.workbench.fx.controls/src",
-    "javaRuntime": false
+    "jarFileFingerprint": "54932dce3133fbac213b3a208f79dc5f4f545482",
+    "jarFileModificationDate": "2013-03-01T05:26:09-06:00",
+    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jfr.jar",
+    "javaRuntime": true
   },
   {
     "symbolicName": "jre",
@@ -773,17 +762,16 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "jre",
+    "symbolicName": "at.bestsolution.efxclipse.runtime.workbench.fx.controls",
     "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
+      "major": 0,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": "qualifier"
     },
-    "jarFileFingerprint": "54932dce3133fbac213b3a208f79dc5f4f545482",
-    "jarFileModificationDate": "2013-03-01T05:26:09-06:00",
-    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jfr.jar",
-    "javaRuntime": true
+    "jarFileModificationDate": "2013-04-22T10:55:51-05:00",
+    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/at.bestsolution.efxclipse.runtime.workbench.fx.controls/src",
+    "javaRuntime": false
   },
   {
     "symbolicName": "org.eclipse.emf.ecore.change",
@@ -823,17 +811,17 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "org.eclipse.emf.ecore",
+    "symbolicName": "jre",
     "version": {
-      "major": 2,
-      "minor": 8,
-      "micro": 3,
-      "qualifier": "v20130125-0546"
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
     },
-    "jarFileFingerprint": "79bf7ff74b109ea520a9acab60b2b5fa688efd85",
-    "jarFileModificationDate": "2013-02-24T23:43:29-06:00",
-    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar",
-    "javaRuntime": false
+    "jarFileFingerprint": "4e928752ce3d6460bceaa616e6a7d5dabd6c4129",
+    "jarFileModificationDate": "2013-03-01T05:13:17-06:00",
+    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
   },
   {
     "symbolicName": "com.steelejr.remotespace.app",
@@ -848,17 +836,29 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "jre",
+    "symbolicName": "org.eclipse.emf.ecore",
     "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
+      "major": 2,
+      "minor": 8,
+      "micro": 3,
+      "qualifier": "v20130125-0546"
     },
-    "jarFileFingerprint": "4e928752ce3d6460bceaa616e6a7d5dabd6c4129",
-    "jarFileModificationDate": "2013-03-01T05:13:17-06:00",
-    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/dnsns.jar",
-    "javaRuntime": true
+    "jarFileFingerprint": "79bf7ff74b109ea520a9acab60b2b5fa688efd85",
+    "jarFileModificationDate": "2013-02-24T23:43:29-06:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "at.bestsolution.efxclipse.runtime.di",
+    "version": {
+      "major": 0,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-04-22T10:55:48-05:00",
+    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/at.bestsolution.efxclipse.runtime.di/src",
+    "javaRuntime": false
   },
   {
     "symbolicName": "org.eclipse.jface.databinding",
@@ -874,15 +874,15 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "at.bestsolution.efxclipse.runtime.di",
+    "symbolicName": "at.bestsolution.efxclipse.runtime.workbench.renderers.fx",
     "version": {
       "major": 0,
       "minor": 8,
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-04-22T10:55:48-05:00",
-    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/at.bestsolution.efxclipse.runtime.di/src",
+    "jarFileModificationDate": "2013-04-22T10:55:52-05:00",
+    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/at.bestsolution.efxclipse.runtime.workbench.renderers.fx/src",
     "javaRuntime": false
   },
   {
@@ -899,15 +899,16 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "at.bestsolution.efxclipse.runtime.workbench.renderers.fx",
+    "symbolicName": "org.eclipse.emf.ecore.xmi",
     "version": {
-      "major": 0,
+      "major": 2,
       "minor": 8,
       "micro": 1,
-      "qualifier": "qualifier"
+      "qualifier": "v20130125-0546"
     },
-    "jarFileModificationDate": "2013-04-22T10:55:52-05:00",
-    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/at.bestsolution.efxclipse.runtime.workbench.renderers.fx/src",
+    "jarFileFingerprint": "0a28d91bd0f13e09d4a7120fdc01f12fca113d64",
+    "jarFileModificationDate": "2013-02-24T23:43:30-06:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.8.1.v20130125-0546.jar",
     "javaRuntime": false
   },
   {
@@ -921,19 +922,6 @@
     "jarFileFingerprint": "af77ac6db0aa0c9c6b0298fcbbcfbe255782885c",
     "jarFileModificationDate": "2013-03-25T10:46:33-05:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/at.bestsolution.efxclipse.runtime.core_0.8.1.201303112105.jar",
-    "javaRuntime": false
-  },
-  {
-    "symbolicName": "org.eclipse.emf.ecore.xmi",
-    "version": {
-      "major": 2,
-      "minor": 8,
-      "micro": 1,
-      "qualifier": "v20130125-0546"
-    },
-    "jarFileFingerprint": "0a28d91bd0f13e09d4a7120fdc01f12fca113d64",
-    "jarFileModificationDate": "2013-02-24T23:43:30-06:00",
-    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.8.1.v20130125-0546.jar",
     "javaRuntime": false
   },
   {
@@ -963,19 +951,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "org.eclipse.e4.ui.css.swt.theme",
-    "version": {
-      "major": 0,
-      "minor": 9,
-      "micro": 4,
-      "qualifier": "v20130123-162658"
-    },
-    "jarFileFingerprint": "8a718630f82c5ef9492337608026f8e488ed54c7",
-    "jarFileModificationDate": "2013-02-24T23:43:27-06:00",
-    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.css.swt.theme_0.9.4.v20130123-162658.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "fx8",
     "version": {
       "major": -1,
@@ -986,6 +961,19 @@
     "jarFileFingerprint": "66a31c89bb610757c1da97bca74fcdda54c924d4",
     "jarFileModificationDate": "2013-03-26T07:29:46-05:00",
     "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/at.bestsolution.efxclipse.runtime.workbench.fx.controls/libs/fx8.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.e4.ui.css.swt.theme",
+    "version": {
+      "major": 0,
+      "minor": 9,
+      "micro": 4,
+      "qualifier": "v20130123-162658"
+    },
+    "jarFileFingerprint": "8a718630f82c5ef9492337608026f8e488ed54c7",
+    "jarFileModificationDate": "2013-02-24T23:43:27-06:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.css.swt.theme_0.9.4.v20130123-162658.jar",
     "javaRuntime": false
   },
   {
@@ -1028,19 +1016,6 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "org.eclipse.swt.gtk.linux.x86",
-    "version": {
-      "major": 3,
-      "minor": 100,
-      "micro": 1,
-      "qualifier": "v4236b"
-    },
-    "jarFileFingerprint": "61981561ea5c559802efce12013d9c5be5e10b16",
-    "jarFileModificationDate": "2013-02-24T23:43:58-06:00",
-    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_3.100.1.v4236b.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "org.eclipse.osgi",
     "version": {
       "major": 3,
@@ -1051,6 +1026,19 @@
     "jarFileFingerprint": "9a2ddf569f6236e110648c55d91bd5334b7aeed9",
     "jarFileModificationDate": "2013-02-24T23:43:46-06:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.osgi_3.8.2.v20130124-134944.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.swt.gtk.linux.x86",
+    "version": {
+      "major": 3,
+      "minor": 100,
+      "micro": 1,
+      "qualifier": "v4236b"
+    },
+    "jarFileFingerprint": "61981561ea5c559802efce12013d9c5be5e10b16",
+    "jarFileModificationDate": "2013-02-24T23:43:58-06:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_3.100.1.v4236b.jar",
     "javaRuntime": false
   },
   {
@@ -1092,6 +1080,19 @@
     "javaRuntime": false
   },
   {
+    "symbolicName": "org.eclipse.e4.ui.workbench.swt",
+    "version": {
+      "major": 0,
+      "minor": 10,
+      "micro": 3,
+      "qualifier": "v20130124-133900"
+    },
+    "jarFileFingerprint": "d126e3047a34430f8da5c8e5fcdb11e82dd2e525",
+    "jarFileModificationDate": "2013-02-24T23:43:28-06:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.workbench.swt_0.10.3.v20130124-133900.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "at.bestsolution.efxclipse.runtime.bindings",
     "version": {
       "major": 0,
@@ -1117,18 +1118,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "org.eclipse.e4.ui.workbench.renderers.swt",
-    "version": {
-      "major": 0,
-      "minor": 10,
-      "micro": 3,
-      "qualifier": "v20130124-170312"
-    },
-    "jarFileModificationDate": "2013-04-12T10:56:01-05:00",
-    "location": "/home/jroot/git/xdev/xdev/xdev-remotespace/org.eclipse.e4.ui.workbench.renderers.swt/src",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "org.eclipse.e4.ui.workbench3",
     "version": {
       "major": 0,
@@ -1139,19 +1128,6 @@
     "jarFileFingerprint": "06ceb15caf8cb93993d77a65d2bf2b2243082f7e",
     "jarFileModificationDate": "2013-02-24T23:43:28-06:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.workbench3_0.12.0.v20120521-2329.jar",
-    "javaRuntime": false
-  },
-  {
-    "symbolicName": "org.eclipse.ui",
-    "version": {
-      "major": 3,
-      "minor": 104,
-      "micro": 0,
-      "qualifier": "v20121024-145224"
-    },
-    "jarFileFingerprint": "a99732b7ab16a6e6763c819dc71e78d898eb2709",
-    "jarFileModificationDate": "2013-02-24T23:44:00-06:00",
-    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.ui_3.104.0.v20121024-145224.jar",
     "javaRuntime": false
   },
   {
@@ -1166,5 +1142,18 @@
     "jarFileModificationDate": "2013-03-01T05:15:59-06:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/zipfs.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.ui",
+    "version": {
+      "major": 3,
+      "minor": 104,
+      "micro": 0,
+      "qualifier": "v20121024-145224"
+    },
+    "jarFileFingerprint": "a99732b7ab16a6e6763c819dc71e78d898eb2709",
+    "jarFileModificationDate": "2013-02-24T23:44:00-06:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.ui_3.104.0.v20121024-145224.jar",
+    "javaRuntime": false
   }
 ]
