@@ -1,0 +1,12 @@
+!SESSION 2013-05-30 08:20:28.808 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product com.steelejr.xdev.app.product
+Command-line arguments:  -product com.steelejr.xdev.app.product -data /home/jroot/git/xdev/xdev/../runtime-com.steelejr.xdev.app.product.product -dev file:/home/jroot/git/xdev/xdev/.metadata/.plugins/org.eclipse.pde.core/com.steelejr.xdev.app.product.product/dev.properties -os linux -ws gtk -arch x86 -consoleLog
+
+!ENTRY org.eclipse.osgi 2 0 2013-05-30 08:20:30.005
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-05-30 08:20:30.005
+!MESSAGE Bundle at.bestsolution.efxclipse.runtime.osgi_0.8.1.201303112105 [83] was not resolved.

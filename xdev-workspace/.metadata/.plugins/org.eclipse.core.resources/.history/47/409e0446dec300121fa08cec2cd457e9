@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Services
-Bundle-SymbolicName: com.steelejr.remotespace.ui.services
-Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: com.steelejr.remotespace.ui.services.Activator
-Bundle-Vendor: STEELEJR
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Bundle-ActivationPolicy: lazy

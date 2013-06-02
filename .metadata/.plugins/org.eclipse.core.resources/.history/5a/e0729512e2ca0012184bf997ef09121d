@@ -1,0 +1,50 @@
+ 
+
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.layout.BorderPane;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.e4.ui.di.Persist;
+
+public class TestPart {
+	
+	private TableView table;
+
+	public TestPart() {
+	}
+	
+	@PostConstruct
+	public void postConstruct(BorderPane pane) {
+		table = new TableView();
+		table.setEditable(true);
+		
+		TableColumn firstNameCol = new TableColumn ("First Name");
+		TableColumn lastNameCol  = new TableColumn ("Last Name");
+		TableColumn emailCol     = new TableColumn ("Email");
+		
+		
+		pane.setCenter(table);
+	}
+	
+	
+	@PreDestroy
+	public void preDestroy() {
+		//TODO Your code here
+	}
+	
+	
+	@Focus
+	public void onFocus() {
+		//TODO Your code here
+	}
+	
+	
+	@Persist
+	public void save() {
+		//TODO Your code here
+	}
+}

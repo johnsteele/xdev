@@ -1,0 +1,17 @@
+{
+  "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jfxrt.jar": {
+    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jfxrt.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/usr/lib/jvm/jdk1.7.0_17/jre/lib/jfxrt.jar\u0027. Neither fingerprint \u0027a2d57b875c8e29f249252f29824ee92144da1937\u0027 nor symbolic name \u0027jfxrt\u0027 are known."
+  },
+  "/usr/lib/jvm/jdk1.7.0_17/jre/lib/rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/rt.jar",
+    "status": "RESOLVED"
+  },
+  "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.application/src": {
+    "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.application/src",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.application/src\u0027. Neither fingerprint \u0027null\u0027 nor symbolic name \u0027at.bestsolution.efxclipse.runtime.application\u0027 are known."
+  }
+}

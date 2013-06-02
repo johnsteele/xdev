@@ -1,6 +1,0 @@
-osgi.bundles=./org.apache.felix.gogo.runtime_0.8.0v<version>.jar@start,\ 
-    ./org.apache.felix.gogo.command_0.8.0v<version>.jar@start,\ 
-    ./org.apache.felix.gogo.shell_0.8.0v<version>.jar@start,\ 
-    ./org.eclipse.equinox.console.jar@start,\ 
-osgi.console.enable.builtin=false 
-osgi.console=<port> 
