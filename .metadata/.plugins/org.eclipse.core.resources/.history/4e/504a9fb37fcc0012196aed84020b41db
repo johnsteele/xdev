@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_XzhBgMR7EeKAg6QEGEJS2Q" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_XzhoncR7EeKAg6QEGEJS2Q" label="XDev" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_XzhopcR7EeKAg6QEGEJS2Q">
+      <children xsi:type="advanced:Perspective" xmi:id="_XzhopsR7EeKAg6QEGEJS2Q">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_Xzhop8R7EeKAg6QEGEJS2Q" containerData="" horizontal="true">
+          <children xsi:type="basic:Part" xmi:id="_GS3lQMx-EeKCK4asDPbPZw" elementId="com.steelejr.xdev.app.part.navigator" containerData="30" contributionURI="bundleclass://com.steelejr.xdev.app/com.steelejr.xdev.app.view.Navigator" label="Navigator"/>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_p__TkMx_EeKCK4asDPbPZw" elementId="com.steelejr.xdev.app.partsashcontainer.0">
+            <children xsi:type="basic:Part" xmi:id="_QL7nEMu4EeKH4sMEvlDlxw" elementId="com.steelejr.xdev.app.part.0" containerData="100" contributionURI="bundleclass://com.steelejr.xdev.app/com.steelejr.xdev.app.view.Editor" label="Editor"/>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <addons xmi:id="_XzhBhMR7EeKAg6QEGEJS2Q" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_XzhBhcR7EeKAg6QEGEJS2Q" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_XzhBh8R7EeKAg6QEGEJS2Q" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_XzhBiMR7EeKAg6QEGEJS2Q" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+</application:Application>

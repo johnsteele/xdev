@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="tester2.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+	<product
+       application="tester2.Application"
+       name="XDev Compat Product">
+		<property
+			name="aboutText"
+			value="XDev compatability">
+		</property>
+		<property
+			name="applicationXMI"
+			value="org.eclipse.platform/LegacyIDE.e4xmi">
+		</property>
+		<property
+			name="cssTheme"
+			value="org.eclipse.e4.ui.css.theme.e4_default">
+		</property>
+		<property
+			name="applicationCSSResources"
+			value="platform:/plugin/org.eclipse.platform/images/">
+		</property>
+		<property
+			name="appName"
+			value="XDev Compat Product">
+		</property>
+	</product>
+   </extension>
+
+</plugin>

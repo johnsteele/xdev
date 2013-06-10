@@ -13,8 +13,9 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="Stage" key="selection"/>
+		<item value="show" key="selection"/>
 		<list key="findhistory">
+			<item value="show"/>
 			<item value="stage"/>
 			<item value="stage.show"/>
 			<item value="Stage"/>
@@ -22,5 +23,9 @@
 		</list>
 		<list key="replacehistory">
 		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="260" key="DIALOG_Y_ORIGIN"/>
+		<item value="333" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>

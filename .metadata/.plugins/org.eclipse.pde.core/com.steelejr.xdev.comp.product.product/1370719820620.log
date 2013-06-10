@@ -1,0 +1,29 @@
+!SESSION 2013-06-08 12:30:20.441 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product tester2.product
+Command-line arguments:  -product tester2.product -data /home/jroot/git/xdev/xdev/../runtime-com.steelejr.xdev.comp.product.product -dev file:/home/jroot/git/xdev/xdev/.metadata/.plugins/org.eclipse.pde.core/com.steelejr.xdev.comp.product.product/dev.properties -os linux -ws gtk -arch x86 -consoleLog
+
+!ENTRY org.eclipse.osgi 2 0 2013-06-08 12:30:22.154
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-06-08 12:30:22.155
+!MESSAGE Bundle initial@reference:file:plugins/org.apache.lucene.analysis_2.9.1.v201101211721.jar was not resolved.
+!SUBENTRY 2 org.apache.lucene.analysis 2 0 2013-06-08 12:30:22.155
+!MESSAGE Missing required bundle org.apache.lucene.core_[2.9.1,3.0.0).
+
+!ENTRY org.eclipse.osgi 2 0 2013-06-08 12:30:22.162
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-06-08 12:30:22.163
+!MESSAGE Bundle org.eclipse.help.base_3.6.101.v201302041200 [68] was not resolved.
+!SUBENTRY 2 org.eclipse.help.base 2 0 2013-06-08 12:30:22.164
+!MESSAGE Missing required bundle org.apache.lucene.analysis_2.9.0.
+!SUBENTRY 2 org.eclipse.help.base 2 0 2013-06-08 12:30:22.164
+!MESSAGE Missing optionally required bundle org.eclipse.ant.core_3.2.200.
+!SUBENTRY 2 org.eclipse.help.base 2 0 2013-06-08 12:30:22.165
+!MESSAGE Missing optionally imported package org.eclipse.equinox.http.jetty_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-06-08 12:30:22.166
+!MESSAGE Bundle org.apache.lucene.analysis_2.9.1.v201101211721 [70] was not resolved.
+!SUBENTRY 2 org.apache.lucene.analysis 2 0 2013-06-08 12:30:22.166
+!MESSAGE Missing required bundle org.apache.lucene.core_[2.9.1,3.0.0).

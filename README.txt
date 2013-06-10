@@ -1,19 +1,9 @@
-xdev (Next Generation Developer) is an Eclipse RCP based IDE.
+xdev (Next Generation Developer) is an IDE (integrated development environment) built on top of the EAP (Eclipse Application Platform).
 
-In addition to housing the framework and build code, this project also serves as an incubator for other xdev sub-component projects.
-
-Framework 
-	- xdev-platform
-Sub-component projects include:
-	- xdev-wiki
-	- xdev-remotespace
-	- xdev-aws-ec2
-
+xdev provides the following features:
 
 xdev-remotespace:
 	Application for managing Eclipse installations, workspaces, and deployments.
-
- Key Features Include:
  # Eclipse Installation Management
   - Distributions can be uploaded and downloaded.
   - Distributions can be installed and deployed
@@ -36,3 +26,12 @@ xdev-remotespace:
     + Eclipse Installations
     + Installed JRE Installations
     + Activity
+
+Framework 
+	- xdev-platform
+
+Sub-component projects include:
+	- xdev-wiki
+	- xdev-remotespace
+	- xdev-aws-ec2
+

@@ -1,0 +1,7 @@
+package com.steelejr.xdev.comp;
+
+
+public class Activator extends AbstractUIPlugin {
+
+	
+}

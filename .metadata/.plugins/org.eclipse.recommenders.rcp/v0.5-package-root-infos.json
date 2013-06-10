@@ -8,7 +8,7 @@
       "qualifier": "v20120523-1955"
     },
     "jarFileFingerprint": "8bc61b3dfdd45b3da7b11f95955608c7a0ff0ec3",
-    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:25-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.databinding.property_1.4.100.v20120523-1955.jar",
     "javaRuntime": false
   },
@@ -21,8 +21,20 @@
       "qualifier": "v20120522-1841"
     },
     "jarFileFingerprint": "2ffba3865361c2a30ca30fb975a15bbec3cd5e28",
-    "jarFileModificationDate": "2013-02-24T23:43:30-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:30-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tester",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-06-06T07:51:05-07:00",
+    "location": "/home/jroot/git/xdev/xdev/tester/src",
     "javaRuntime": false
   },
   {
@@ -33,7 +45,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:45-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:45-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.theme/src",
     "javaRuntime": false
   },
@@ -46,7 +58,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "c4c7923b11e98bc8d1d32bfd2ff6363d212ead80",
-    "jarFileModificationDate": "2013-03-01T05:13:01-06:00",
+    "jarFileModificationDate": "2013-03-01T03:13:01-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/sunec.jar",
     "javaRuntime": true
   },
@@ -59,7 +71,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "509f334efc393df8477c3983700b0ecd9823b8a6",
-    "jarFileModificationDate": "2013-03-26T07:29:45-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:45-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.workbench.fx.controls/libs/fx2.jar",
     "javaRuntime": false
   },
@@ -72,7 +84,7 @@
       "qualifier": "v20120521-2329"
     },
     "jarFileFingerprint": "fdf3070d2c537d7dcb4462d5e048e131bbbfa67d",
-    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:25-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar",
     "javaRuntime": false
   },
@@ -85,7 +97,7 @@
       "qualifier": "v20130123-162658"
     },
     "jarFileFingerprint": "42dd141a9f20fbb21cea93d85a5f0a0ab5e8daea",
-    "jarFileModificationDate": "2013-02-24T23:43:28-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:28-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.services_0.10.3.v20130123-162658.jar",
     "javaRuntime": false
   },
@@ -98,7 +110,7 @@
       "qualifier": "v20120926-201320"
     },
     "jarFileFingerprint": "af46bac1bd7efc3f829d420118b6dc9da2d5eb36",
-    "jarFileModificationDate": "2013-02-24T23:43:30-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:30-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.equinox.ds_1.4.1.v20120926-201320.jar",
     "javaRuntime": false
   },
@@ -111,7 +123,7 @@
       "qualifier": "v20121024-173149"
     },
     "jarFileFingerprint": "1e3915d97175c6d34143967f34434f164319fae4",
-    "jarFileModificationDate": "2013-02-24T23:43:27-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:27-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.core.di_1.2.0.v20121024-173149.jar",
     "javaRuntime": false
   },
@@ -124,20 +136,21 @@
       "qualifier": "v20120523-1955"
     },
     "jarFileFingerprint": "6e4e5fe1cf4a44c738ae83f441727202f4e21061",
-    "jarFileModificationDate": "2013-02-24T23:43:27-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:27-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.core.commands_0.10.1.v20120523-1955.jar",
     "javaRuntime": false
   },
   {
-    "symbolicName": "at.bestsolution.efxclipse.runtime.bindings",
+    "symbolicName": "org.eclipse.ui.workbench",
     "version": {
-      "major": 0,
-      "minor": 8,
-      "micro": 1,
-      "qualifier": "qualifier"
+      "major": 3,
+      "minor": 104,
+      "micro": 0,
+      "qualifier": "v20130204-164612"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
-    "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.bindings/src",
+    "jarFileFingerprint": "3a15f808598d763319be19945dc3a84199efe530",
+    "jarFileModificationDate": "2013-02-24T21:44:03-08:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.ui.workbench_3.104.0.v20130204-164612.jar",
     "javaRuntime": false
   },
   {
@@ -149,9 +162,21 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "3fd7709166f70fe311b45a7bafe7cdccbecf6b04",
-    "jarFileModificationDate": "2013-03-01T05:13:11-06:00",
+    "jarFileModificationDate": "2013-03-01T03:13:11-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/sunpkcs11.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "at.bestsolution.efxclipse.runtime.bindings",
+    "version": {
+      "major": 0,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
+    "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.bindings/src",
+    "javaRuntime": false
   },
   {
     "symbolicName": "at.bestsolution.efxclipse.runtime.core",
@@ -161,8 +186,20 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.core/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tester3",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-06-08T11:43:51-07:00",
+    "location": "/home/jroot/git/xdev/xdev/tester3/src",
     "javaRuntime": false
   },
   {
@@ -173,7 +210,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:49-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:49-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.application/src",
     "javaRuntime": false
   },
@@ -186,7 +223,7 @@
       "qualifier": "v20120521-2346"
     },
     "jarFileFingerprint": "588518a73e921737cd62161cdbaef48d70aba791",
-    "jarFileModificationDate": "2013-02-24T23:43:27-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:27-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.core.services_1.0.0.v20120521-2346.jar",
     "javaRuntime": false
   },
@@ -199,7 +236,7 @@
       "qualifier": "v20120912-155025"
     },
     "jarFileFingerprint": "07e7d1ad93a50e4989b63a5b352ae7fb0f408274",
-    "jarFileModificationDate": "2013-02-24T23:43:26-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:26-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.runtime_3.8.0.v20120912-155025.jar",
     "javaRuntime": false
   },
@@ -212,7 +249,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "f831655c50b92c41e366442d09511ea84270c45e",
-    "jarFileModificationDate": "2013-03-01T05:10:39-06:00",
+    "jarFileModificationDate": "2013-03-01T03:10:39-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jce.jar",
     "javaRuntime": true
   },
@@ -225,7 +262,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "782acfaeaa346294a7a405b273cd4540dc8accfe",
-    "jarFileModificationDate": "2013-03-01T05:34:44-06:00",
+    "jarFileModificationDate": "2013-03-01T03:34:44-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jsse.jar",
     "javaRuntime": true
   },
@@ -238,8 +275,21 @@
       "qualifier": "v4236b"
     },
     "jarFileFingerprint": "141ad7fdd167383cef0f89f100f0193d8a233131",
-    "jarFileModificationDate": "2013-02-24T23:43:58-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:58-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.swt_3.100.1.v4236b.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.jface",
+    "version": {
+      "major": 3,
+      "minor": 8,
+      "micro": 102,
+      "qualifier": "v20130123-162658"
+    },
+    "jarFileFingerprint": "e1ffe54bec9d30bdba9ed9fe15df0a62e313995a",
+    "jarFileModificationDate": "2013-02-24T21:43:38-08:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.jface_3.8.102.v20130123-162658.jar",
     "javaRuntime": false
   },
   {
@@ -250,7 +300,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.dialogs/src",
     "javaRuntime": false
   },
@@ -262,8 +312,20 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.workbench.renderers.base/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "at.bestsolution.efxclipse.runtime.services",
+    "version": {
+      "major": 0,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
+    "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.services/src",
     "javaRuntime": false
   },
   {
@@ -275,20 +337,8 @@
       "qualifier": "v20120522-1841"
     },
     "jarFileFingerprint": "b8d040404b3c5be1c48a364c4fdc2a4c0525c1ad",
-    "jarFileModificationDate": "2013-02-24T23:43:30-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:30-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.equinox.app_1.3.100.v20120522-1841.jar",
-    "javaRuntime": false
-  },
-  {
-    "symbolicName": "at.bestsolution.efxclipse.runtime.services",
-    "version": {
-      "major": 0,
-      "minor": 8,
-      "micro": 1,
-      "qualifier": "qualifier"
-    },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
-    "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.services/src",
     "javaRuntime": false
   },
   {
@@ -300,7 +350,7 @@
       "qualifier": "v200903091627"
     },
     "jarFileFingerprint": "a89ad6e04a568a076d83d68402024deb727d7173",
-    "jarFileModificationDate": "2013-02-24T23:44:09-06:00",
+    "jarFileModificationDate": "2013-02-24T21:44:09-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.w3c.css.sac_1.3.1.v200903091627.jar",
     "javaRuntime": false
   },
@@ -313,7 +363,7 @@
       "qualifier": "v20120522-1822"
     },
     "jarFileFingerprint": "54238ab2e47b2c9a2030c6410682c0d9dd06b827",
-    "jarFileModificationDate": "2013-02-24T23:43:46-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:46-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.osgi.services_3.3.100.v20120522-1822.jar",
     "javaRuntime": false
   },
@@ -326,8 +376,21 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "607a5f56c791de4d56cb8db89d5179fb4e16d0b9",
-    "jarFileModificationDate": "2013-01-09T12:06:46-06:00",
+    "jarFileModificationDate": "2013-01-09T10:06:46-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.runtime.compatibility.registry_3.5.101.v20130108-163257/runtime_registry_compatibility.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.e4.ui.bindings",
+    "version": {
+      "major": 0,
+      "minor": 10,
+      "micro": 3,
+      "qualifier": "v20130123-162658"
+    },
+    "jarFileFingerprint": "f4d3bdd2e309128c03bf5acdafc3f6ef0dd49b49",
+    "jarFileModificationDate": "2013-02-24T21:43:27-08:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.bindings_0.10.3.v20130123-162658.jar",
     "javaRuntime": false
   },
   {
@@ -338,7 +401,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:45-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:45-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.workbench.fx.controls/src",
     "javaRuntime": false
   },
@@ -350,7 +413,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.panels/src",
     "javaRuntime": false
   },
@@ -363,7 +426,7 @@
       "qualifier": "v20120522-2049"
     },
     "jarFileFingerprint": "4f53b24d3ba7214a3a6732461d137fec1010319c",
-    "jarFileModificationDate": "2013-02-24T23:43:30-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:30-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.equinox.event_1.2.200.v20120522-2049.jar",
     "javaRuntime": false
   },
@@ -376,7 +439,7 @@
       "qualifier": "v20091030"
     },
     "jarFileFingerprint": "38623235627d561c3eb9a558de9a5535a1c30e29",
-    "jarFileModificationDate": "2013-02-24T23:43:21-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:21-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/javax.inject_1.0.0.v20091030.jar",
     "javaRuntime": false
   },
@@ -389,7 +452,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "5da320e46f1c616986563b2e788b5a0569cad088",
-    "jarFileModificationDate": "2013-03-01T05:15:26-06:00",
+    "jarFileModificationDate": "2013-03-01T03:15:26-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/sunjce_provider.jar",
     "javaRuntime": true
   },
@@ -402,7 +465,7 @@
       "qualifier": "v20120522-1841"
     },
     "jarFileFingerprint": "3460c85af958a3f99f8b2aaf527f2bed9cc10b92",
-    "jarFileModificationDate": "2013-02-24T23:43:33-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:33-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar",
     "javaRuntime": false
   },
@@ -414,7 +477,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.workbench.renderers.fx/src",
     "javaRuntime": false
   },
@@ -426,7 +489,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.databinding/src",
     "javaRuntime": false
   },
@@ -439,7 +502,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "49b1d94e8992863d0c310919ab69af9864098a0e",
-    "jarFileModificationDate": "2013-03-01T05:34:42-06:00",
+    "jarFileModificationDate": "2013-03-01T03:34:42-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/rt.jar",
     "javaRuntime": true
   },
@@ -452,7 +515,7 @@
       "qualifier": "v20120912-132807"
     },
     "jarFileFingerprint": "5436d2164b592f15b90c036bf51a8b8df6700514",
-    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:25-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.databinding_1.4.1.v20120912-132807.jar",
     "javaRuntime": false
   },
@@ -465,7 +528,7 @@
       "qualifier": "v20121221-192508"
     },
     "jarFileFingerprint": "50c41e4b0d3c9cca1d448c31efdc02f22eba20a0",
-    "jarFileModificationDate": "2013-02-24T23:43:27-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:27-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.core.contexts_1.2.0.v20121221-192508.jar",
     "javaRuntime": false
   },
@@ -478,7 +541,7 @@
       "qualifier": "v20120912-155018"
     },
     "jarFileFingerprint": "4ec98d105d54b25214bb678f1a07eda17ae621b1",
-    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:25-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.jobs_3.5.300.v20120912-155018.jar",
     "javaRuntime": false
   },
@@ -491,7 +554,7 @@
       "qualifier": "v20120912-132817"
     },
     "jarFileFingerprint": "0dd8a445199faa55e7d587391d42a991805a9d86",
-    "jarFileModificationDate": "2013-02-24T23:43:27-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:27-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.css.core_0.10.2.v20120912-132817.jar",
     "javaRuntime": false
   },
@@ -504,7 +567,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "a2d57b875c8e29f249252f29824ee92144da1937",
-    "jarFileModificationDate": "2013-02-04T13:59:20-06:00",
+    "jarFileModificationDate": "2013-02-04T11:59:20-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jfxrt.jar",
     "javaRuntime": false
   },
@@ -516,7 +579,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.bindings.e4/src",
     "javaRuntime": false
   },
@@ -528,7 +591,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.osgi.util/src",
     "javaRuntime": false
   },
@@ -541,34 +604,9 @@
       "qualifier": "v20130125-0546"
     },
     "jarFileFingerprint": "2a8bb6f3ca8a781dac64e514eebb253933878fb0",
-    "jarFileModificationDate": "2013-02-24T23:43:29-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:29-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.emf.common_2.8.0.v20130125-0546.jar",
     "javaRuntime": false
-  },
-  {
-    "symbolicName": "at.bestsolution.efxclipse.runtime.osgi",
-    "version": {
-      "major": 0,
-      "minor": 8,
-      "micro": 1,
-      "qualifier": "qualifier"
-    },
-    "jarFileModificationDate": "2013-03-26T07:29:45-05:00",
-    "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.osgi/src",
-    "javaRuntime": false
-  },
-  {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "69ea17880a05f19d2023258bcb7aced2cb7d84b3",
-    "jarFileModificationDate": "2013-03-01T05:34:53-06:00",
-    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/charsets.jar",
-    "javaRuntime": true
   },
   {
     "symbolicName": "jre",
@@ -579,9 +617,34 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "54932dce3133fbac213b3a208f79dc5f4f545482",
-    "jarFileModificationDate": "2013-03-01T05:26:09-06:00",
+    "jarFileModificationDate": "2013-03-01T03:26:09-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/jfr.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "69ea17880a05f19d2023258bcb7aced2cb7d84b3",
+    "jarFileModificationDate": "2013-03-01T03:34:53-08:00",
+    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "at.bestsolution.efxclipse.runtime.osgi",
+    "version": {
+      "major": 0,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-03-26T05:29:45-07:00",
+    "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.osgi/src",
+    "javaRuntime": false
   },
   {
     "symbolicName": "at.bestsolution.efxclipse.runtime.di",
@@ -591,7 +654,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.di/src",
     "javaRuntime": false
   },
@@ -604,7 +667,7 @@
       "qualifier": "v20130125-100758"
     },
     "jarFileFingerprint": "81f40ccf279877f56f6164934c1dd2eb9e9de32d",
-    "jarFileModificationDate": "2013-02-24T23:43:28-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:28-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.workbench_0.11.0.v20130125-100758.jar",
     "javaRuntime": false
   },
@@ -617,8 +680,21 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "66a31c89bb610757c1da97bca74fcdda54c924d4",
-    "jarFileModificationDate": "2013-03-26T07:29:46-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:46-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.workbench.fx.controls/libs/fx8.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.ant.ui",
+    "version": {
+      "major": 3,
+      "minor": 5,
+      "micro": 301,
+      "qualifier": "v20121210-210948"
+    },
+    "jarFileFingerprint": "09c87d95b3f7fe9a0a2302505be3ba460daefd53",
+    "jarFileModificationDate": "2013-02-24T21:43:24-08:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.ant.ui_3.5.301.v20121210-210948.jar",
     "javaRuntime": false
   },
   {
@@ -630,7 +706,7 @@
       "qualifier": "v20130125-0546"
     },
     "jarFileFingerprint": "79bf7ff74b109ea520a9acab60b2b5fa688efd85",
-    "jarFileModificationDate": "2013-02-24T23:43:29-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:29-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar",
     "javaRuntime": false
   },
@@ -643,9 +719,22 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "4e928752ce3d6460bceaa616e6a7d5dabd6c4129",
-    "jarFileModificationDate": "2013-03-01T05:13:17-06:00",
+    "jarFileModificationDate": "2013-03-01T03:13:17-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/dnsns.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.jface.databinding",
+    "version": {
+      "major": 1,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": "v20120912-132807"
+    },
+    "jarFileFingerprint": "a7b1a1f43281a5c5f7d7905fdf06f44ed7498e10",
+    "jarFileModificationDate": "2013-02-24T21:43:38-08:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.jface.databinding_1.6.0.v20120912-132807.jar",
+    "javaRuntime": false
   },
   {
     "symbolicName": "org.eclipse.e4.ui.di",
@@ -656,7 +745,7 @@
       "qualifier": "v20120523-1955"
     },
     "jarFileFingerprint": "87343629d3c8d64d9e792b412af29b280bfa526d",
-    "jarFileModificationDate": "2013-02-24T23:43:27-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:27-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.di_0.10.1.v20120523-1955.jar",
     "javaRuntime": false
   },
@@ -669,7 +758,7 @@
       "qualifier": "v20130125-0546"
     },
     "jarFileFingerprint": "0a28d91bd0f13e09d4a7120fdc01f12fca113d64",
-    "jarFileModificationDate": "2013-02-24T23:43:30-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:30-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.8.1.v20130125-0546.jar",
     "javaRuntime": false
   },
@@ -682,7 +771,7 @@
       "qualifier": "v20120523-1955"
     },
     "jarFileFingerprint": "722c0c9d31e60c9a0f74fa90636f53bc6afbbedf",
-    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:25-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.databinding.beans_1.2.200.v20120523-1955.jar",
     "javaRuntime": false
   },
@@ -695,7 +784,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "b96438f3f29e845c1aa2e228a19c5b3bb48f34b6",
-    "jarFileModificationDate": "2013-03-26T07:29:47-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:47-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.workbench.fx.controls/libs/api.jar",
     "javaRuntime": false
   },
@@ -708,7 +797,7 @@
       "qualifier": "v20101115-0725"
     },
     "jarFileFingerprint": "4253c9c91a64b5d18f96d50dc18d90ccd17094b0",
-    "jarFileModificationDate": "2013-02-24T23:43:21-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:21-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/javax.annotation_1.0.0.v20101115-0725.jar",
     "javaRuntime": false
   },
@@ -721,7 +810,7 @@
       "qualifier": "v20120523-2004"
     },
     "jarFileFingerprint": "4a29cf0cb9197e69c4ea1347cc275c422c85c21b",
-    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:25-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.contenttype_3.4.200.v20120523-2004.jar",
     "javaRuntime": false
   },
@@ -733,7 +822,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:45-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:45-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.workbench.fx/src",
     "javaRuntime": false
   },
@@ -746,7 +835,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "8b07941569a6caeaa806a3b77bb1d3a4cf7f90ef",
-    "jarFileModificationDate": "2013-03-01T05:35:13-06:00",
+    "jarFileModificationDate": "2013-03-01T03:35:13-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/localedata.jar",
     "javaRuntime": true
   },
@@ -758,8 +847,20 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:45-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:45-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.animationutils/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.steelejr.xdev.comp.ui",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-06-07T09:59:59-07:00",
+    "location": "/home/jroot/git/xdev/xdev/com.steelejr.xdev.comp.ui/src",
     "javaRuntime": false
   },
   {
@@ -770,7 +871,7 @@
       "micro": 1,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:49-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:49-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.workbench.base/src",
     "javaRuntime": false
   },
@@ -783,7 +884,7 @@
       "qualifier": "v20130124-134944"
     },
     "jarFileFingerprint": "9a2ddf569f6236e110648c55d91bd5334b7aeed9",
-    "jarFileModificationDate": "2013-02-24T23:43:46-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:46-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.osgi_3.8.2.v20130124-134944.jar",
     "javaRuntime": false
   },
@@ -796,7 +897,7 @@
       "qualifier": "v4236b"
     },
     "jarFileFingerprint": "61981561ea5c559802efce12013d9c5be5e10b16",
-    "jarFileModificationDate": "2013-02-24T23:43:58-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:58-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_3.100.1.v4236b.jar",
     "javaRuntime": false
   },
@@ -809,7 +910,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "6fa0c98c481df166c3269cc1d9471a558a6b737d",
-    "jarFileModificationDate": "2013-03-01T05:26:09-06:00",
+    "jarFileModificationDate": "2013-03-01T03:26:09-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/resources.jar",
     "javaRuntime": true
   },
@@ -822,8 +923,21 @@
       "qualifier": "v20130123-162658"
     },
     "jarFileFingerprint": "89cd174d42ea121618c53a35959ac0ee10d500c4",
-    "jarFileModificationDate": "2013-02-24T23:43:25-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:25-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.core.commands_3.6.2.v20130123-162658.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.e4.ui.workbench.swt",
+    "version": {
+      "major": 0,
+      "minor": 10,
+      "micro": 3,
+      "qualifier": "v20130124-133900"
+    },
+    "jarFileFingerprint": "d126e3047a34430f8da5c8e5fcdb11e82dd2e525",
+    "jarFileModificationDate": "2013-02-24T21:43:28-08:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.workbench.swt_0.10.3.v20130124-133900.jar",
     "javaRuntime": false
   },
   {
@@ -834,7 +948,7 @@
       "micro": 1,
       "qualifier": "v20120523-1955"
     },
-    "jarFileModificationDate": "2013-05-30T08:39:06-05:00",
+    "jarFileModificationDate": "2013-05-30T06:39:06-07:00",
     "location": "/home/jroot/git/xdev/xdev/org.eclipse.e4.ui.model.workbench/src",
     "javaRuntime": false
   },
@@ -846,7 +960,7 @@
       "micro": 0,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-03-26T07:29:44-05:00",
+    "jarFileModificationDate": "2013-03-26T05:29:44-07:00",
     "location": "/home/jroot/git/e-fx-clipse/at.bestsolution.efxclipse.runtime.javafx/src",
     "javaRuntime": false
   },
@@ -859,7 +973,7 @@
       "qualifier": "v20121031-182809"
     },
     "jarFileFingerprint": "7250d6b59918b87739c95d94c76b286a1b337c9b",
-    "jarFileModificationDate": "2013-02-24T23:43:33-06:00",
+    "jarFileModificationDate": "2013-02-24T21:43:33-08:00",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.equinox.preferences_3.5.1.v20121031-182809.jar",
     "javaRuntime": false
   },
@@ -871,8 +985,33 @@
       "micro": 0,
       "qualifier": "qualifier"
     },
-    "jarFileModificationDate": "2013-05-30T10:15:17-05:00",
+    "jarFileModificationDate": "2013-06-03T11:49:16-07:00",
     "location": "/home/jroot/git/xdev/xdev/com.steelejr.xdev.app/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.e4.ui.workbench3",
+    "version": {
+      "major": 0,
+      "minor": 12,
+      "micro": 0,
+      "qualifier": "v20120521-2329"
+    },
+    "jarFileFingerprint": "06ceb15caf8cb93993d77a65d2bf2b2243082f7e",
+    "jarFileModificationDate": "2013-02-24T21:43:28-08:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.e4.ui.workbench3_0.12.0.v20120521-2329.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tester2",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-06-07T21:46:03-07:00",
+    "location": "/home/jroot/git/xdev/xdev/tester2/src",
     "javaRuntime": false
   },
   {
@@ -884,8 +1023,21 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "4dc6ce297c4bb66b89fbbd8c73db899ca59f030a",
-    "jarFileModificationDate": "2013-03-01T05:15:59-06:00",
+    "jarFileModificationDate": "2013-03-01T03:15:59-08:00",
     "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/ext/zipfs.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.ui",
+    "version": {
+      "major": 3,
+      "minor": 104,
+      "micro": 0,
+      "qualifier": "v20121024-145224"
+    },
+    "jarFileFingerprint": "a99732b7ab16a6e6763c819dc71e78d898eb2709",
+    "jarFileModificationDate": "2013-02-24T21:44:00-08:00",
+    "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.ui_3.104.0.v20121024-145224.jar",
+    "javaRuntime": false
   }
 ]

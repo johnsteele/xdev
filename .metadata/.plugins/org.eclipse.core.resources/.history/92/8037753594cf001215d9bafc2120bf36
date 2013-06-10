@@ -1,0 +1,9 @@
+package com.steelejr.xdev.comp;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+
+public class Activator extends AbstractUIPlugin {
+
+	
+}
