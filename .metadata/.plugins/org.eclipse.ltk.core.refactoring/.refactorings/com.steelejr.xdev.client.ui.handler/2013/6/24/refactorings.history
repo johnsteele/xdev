@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;com.steelejr.xdev.client.ui.handler&apos;&#x0A;- Original project: &apos;com.steelejr.xdev.client.ui.handler&apos;&#x0A;- Original element: &apos;com.steelejr.xdev.client.ui.handler/src/com.steelejr.xdev.client.ui.handler&apos;" description="Delete element" element1="/src&lt;com.steelejr.xdev.client.ui.handler" element2="/src&lt;com.steelejr.xdev.client.ui" element3="/src&lt;com.steelejr.xdev.client" element4="/src&lt;com.steelejr.xdev" element5="/src&lt;com.steelejr" element6="/src&lt;com" elements="6" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1370893087820" subPackages="false" version="1.0"/>
+</session>

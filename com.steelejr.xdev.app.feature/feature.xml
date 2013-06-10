@@ -16,7 +16,7 @@
    <license url="http://www.example.com/license">
       [Enter License Description here.]
    </license>
-   
+
    <plugin
          id="at.bestsolution.efxclipse.runtime.application"
          download-size="0"
@@ -460,5 +460,11 @@
          version="0.0.0"
          unpack="false"/>
 
+   <plugin
+         id="com.steelejr.xdev.app"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>

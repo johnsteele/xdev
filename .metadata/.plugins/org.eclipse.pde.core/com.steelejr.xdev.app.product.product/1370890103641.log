@@ -1,0 +1,23 @@
+!SESSION 2013-06-10 11:48:23.459 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product com.steelejr.xdev.app.product -Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi
+Command-line arguments:  -product com.steelejr.xdev.app.product -data /home/jroot/git/xdev/xdev/../runtime-com.steelejr.xdev.app.product.product -dev file:/home/jroot/git/xdev/xdev/.metadata/.plugins/org.eclipse.pde.core/com.steelejr.xdev.app.product.product/dev.properties -os linux -ws gtk -arch x86 -consoleLog -Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi
+
+!ENTRY org.eclipse.equinox.app 4 0 2013-06-10 11:48:24.865
+!MESSAGE javafx/application/Application
+!STACK 0
+java.lang.NoClassDefFoundError: javafx/application/Application
+	at at.bestsolution.efxclipse.runtime.application.AbstractJFXApplication.start(AbstractJFXApplication.java:76)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.equinox.internal.app.AnyThreadAppLauncher.run(AnyThreadAppLauncher.java:26)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: javafx.application.Application
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	... 4 more

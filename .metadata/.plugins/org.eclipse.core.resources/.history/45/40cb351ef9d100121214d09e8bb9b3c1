@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: com.steelejr.xdev.comp.ui;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: STEELEJR
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.steelejr.xdev.comp.Activator
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.8.0"
