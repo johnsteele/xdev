@@ -1,7 +1,0 @@
-package com.steelejr.xdev.comp;
-
-import org.osgi.framework.BundleActivator;
-
-public class Activator implements BundleActivator {
-
-}

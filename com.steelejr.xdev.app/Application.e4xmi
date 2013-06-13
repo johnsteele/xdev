@@ -3,8 +3,7 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_XzhoncR7EeKAg6QEGEJS2Q" label="XDev" width="500" height="400">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_XzhopcR7EeKAg6QEGEJS2Q">
       <children xsi:type="advanced:Perspective" xmi:id="_XzhopsR7EeKAg6QEGEJS2Q">
-        <children xsi:type="basic:PartSashContainer" xmi:id="_Xzhop8R7EeKAg6QEGEJS2Q" containerData="" horizontal="true">
-          <children xsi:type="basic:Part" xmi:id="_GS3lQMx-EeKCK4asDPbPZw" elementId="com.steelejr.xdev.app.part.navigator" containerData="30" contributionURI="bundleclass://com.steelejr.xdev.app/com.steelejr.xdev.app.view.Navigator" label="Navigator"/>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_Xzhop8R7EeKAg6QEGEJS2Q" elementId="main.partStack" containerData="" horizontal="true">
           <children xsi:type="basic:PartSashContainer" xmi:id="_p__TkMx_EeKCK4asDPbPZw" elementId="com.steelejr.xdev.app.partsashcontainer.0" containerData="70">
             <children xsi:type="basic:Part" xmi:id="_QL7nEMu4EeKH4sMEvlDlxw" elementId="com.steelejr.xdev.app.part.0" containerData="100" contributionURI="bundleclass://com.steelejr.xdev.app/com.steelejr.xdev.app.view.Editor" label="Editor"/>
             <children xsi:type="basic:Part" xmi:id="_vtUCwMx_EeKCK4asDPbPZw" elementId="com.steelejr.xdev.app.part.1" contributionURI="bundleclass://com.steelejr.xdev.app/com.steelejr.xdev.app.view.Editor2"/>

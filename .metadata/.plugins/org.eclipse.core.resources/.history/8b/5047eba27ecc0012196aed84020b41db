@@ -1,8 +1,0 @@
-package com.steelejr.xdev.app.view;
-
-public class Navigator {
-
-	public void post () {
-		
-	}
-}
