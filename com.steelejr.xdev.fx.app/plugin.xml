@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="xdev"
+            application="at.bestsolution.efxclipse.runtime.workbench.fx.application">
+         <property
+               name="appName"
+               value="xdev">
+         </property>
+         <property
+               name="applicationXMI"
+               value="com.steelejr.xdev.fx.app/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.steelejr.xdev.fx.app/css/default.css">
+         </property>
+         <property
+               name="cssTheme"
+               value="theme.default">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="at.bestsolution.efxclipse.runtime.theme">
+      <theme
+            basestylesheet="css/default.css"
+            id="theme.default">
+      </theme>
+   </extension>
+
+</plugin>

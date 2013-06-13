@@ -3,3 +3,8 @@
 1370891795214	Delete resource 'com.steelejr.xdev.client.dashboard.ui'
 1370891821699	Delete resource 'com.steelejr.xdev.ui'
 1370891852007	Delete resource 'com.steelejr.xdev.client.dashboard.ui.controller'
+1371142495753	Delete resource 'org.eclipse.e4.ui.model.workbench'
+1371142628857	Rename Java project 'com.steelejr.xdev.app'
+1371142956010	Rename resource 'com.steelejr.xdev.app.product'
+1371143497804	Rename resource 'com.steelejr.xdev.app.feature'
+1371145298477	Rename Java project 'com.steelejr.xdev.client.ui'
