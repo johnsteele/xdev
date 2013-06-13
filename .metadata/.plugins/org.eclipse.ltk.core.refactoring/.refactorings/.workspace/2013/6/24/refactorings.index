@@ -8,3 +8,6 @@
 1371142956010	Rename resource 'com.steelejr.xdev.app.product'
 1371143497804	Rename resource 'com.steelejr.xdev.app.feature'
 1371145298477	Rename Java project 'com.steelejr.xdev.client.ui'
+1371145526189	Delete resource 'com.steelejr.xdev.client.model'
+1371145530286	Delete resource 'com.steelejr.xdev.client.ui.controller'
+1371145534546	Delete resource 'com.steelejr.xdev.client.ui.handler'

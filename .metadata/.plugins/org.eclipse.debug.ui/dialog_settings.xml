@@ -10,8 +10,8 @@
 		<item value=", org.eclipse.pde.ui.RuntimeWorkbench, org.eclipse.rap.ui.launch.RAPLauncher, " key="org.eclipse.debug.ui.EXPANDED_NODES"/>
 		<item value="776" key="DIALOG_HEIGHT"/>
 		<item value="309" key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1"/>
-		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="690" key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SHARED_LAUNCH_CONFIGURATON_DIALOG">
 		<item value="590" key="DIALOG_WIDTH"/>
