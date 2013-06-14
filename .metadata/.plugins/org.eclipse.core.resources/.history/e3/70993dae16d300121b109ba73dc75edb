@@ -1,0 +1,18 @@
+package com.steelejr.xdev.client.ui.view;
+
+import javax.annotation.PostConstruct;
+
+import javafx.scene.layout.BorderPane;
+
+/**
+ * Navigation view for locations.
+ * 
+ * @author John Steele
+ */
+public class LocationNavigationView {
+
+	@Post
+	public void createView (BorderPane pane) {
+		
+	}
+}

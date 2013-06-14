@@ -1,0 +1,19 @@
+package com.steelejr.xdev.client.ui.view;
+
+import javax.annotation.PostConstruct;
+
+import javafx.scene.control.Button;
+import javafx.scene.layout.BorderPane;
+
+/**
+ * Navigation view for locations.
+ * 
+ * @author John Steele
+ */
+public class LocationNavigationView {
+
+	@PostConstruct
+	public void createView (BorderPane pane) {
+		Button gitButton = new Button();
+	}
+}

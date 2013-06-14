@@ -1,0 +1,33 @@
+package com.steelejr.xdev.app.view;
+
+import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumnBuilder;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TableViewBuilder;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.BorderPane;
+
+import javax.annotation.PostConstruct;
+
+public class Navigator {
+	
+	private TableView table;
+
+	@PostConstruct
+	public void post (BorderPane pane) {
+		table = TableViewBuilder.create()
+				.columns(
+					TableColumnBuilder.create()
+						.text("First Name")
+						.cellValueFactory(new PropertyValueFactory("firstName"))
+						.prefWidth(180)
+						.build(),
+					TableColumnBuilder.create()
+						.text("Last Name")
+						.cellValueFactory(new PropertyValueFactory("lastName"))
+						.prefWidth(180)
+						.build(),
+					
+	}
+}

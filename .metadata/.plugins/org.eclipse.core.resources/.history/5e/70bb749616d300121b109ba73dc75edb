@@ -1,0 +1,10 @@
+package com.steelejr.xdev.client.ui.view;
+
+/**
+ * Navigation view for locations.
+ * @author jroot
+ *
+ */
+public class LocationNavigationView {
+
+}

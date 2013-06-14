@@ -1,0 +1,18 @@
+package com.steelejr.xdev.app.view;
+
+import javafx.scene.control.Button;
+import javafx.scene.control.TableView;
+import javafx.scene.layout.BorderPane;
+
+import javax.annotation.PostConstruct;
+
+public class Navigator {
+	
+	private TableView table;
+
+	@PostConstruct
+	public void post (BorderPane pane) {
+		table = new TableView();
+		
+	}
+}

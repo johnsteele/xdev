@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.steelejr.xdev.app.product/com.steelejr.xdev.app.product.product&apos; to &apos;com.steelejr.xdev.fx.app.product.product&apos;" description="Rename resource &apos;com.steelejr.xdev.app.product.product&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="com.steelejr.xdev.app.product.product" name="com.steelejr.xdev.fx.app.product.product" stamp="1371142916907" updateReferences="true"/>
+</session>
