@@ -21,6 +21,8 @@
 			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
+	<section name="dependenciesView">
+	</section>
 	<section name="org.eclipse.pde.ui.PLUGIN_STATUS_DIALOG">
 		<item value="740" key="DIALOG_WIDTH"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>

@@ -1,5 +1,6 @@
 PROBLEMS_FILTERS_MIGRATE=true
 TASKS_FILTERS_MIGRATE=true
+WORKSPACE_NAME=xdev-fx
 eclipse.preferences.version=1
 platformState=1371101314151
 quickStart=false

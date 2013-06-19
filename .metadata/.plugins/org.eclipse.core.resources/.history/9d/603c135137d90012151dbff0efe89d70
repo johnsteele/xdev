@@ -1,0 +1,5 @@
+package com.steelejr.xdev.fx.client.ui.services;
+
+public interface IWorkspaceService {
+
+}

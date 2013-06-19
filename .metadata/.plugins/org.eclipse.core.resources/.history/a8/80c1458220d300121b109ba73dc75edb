@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Ui
-Bundle-SymbolicName: com.steelejr.xdev.client.ui;singleton:=true
-Bundle-Version: 1.0.0.qualifier
-Bundle-Vendor: STEELEJR
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Require-Bundle: org.eclipse.e4.ui.workbench;bundle-version="0.11.0"

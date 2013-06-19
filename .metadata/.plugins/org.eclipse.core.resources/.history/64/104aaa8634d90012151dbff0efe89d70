@@ -1,0 +1,23 @@
+package com.steelejr.xdev.fx.client.ui.navigator;
+
+import javax.annotation.PostConstruct;
+import javax.inject.Inject;
+
+import org.eclipse.core.resources.IWorkspace;
+import org.eclipse.e4.core.contexts.IEclipseContext;
+
+import javafx.scene.layout.BorderPane;
+
+/**
+ * Navigator for resources.
+ */
+@SuppressWarnings()
+public class ResourceNavigator {
+	
+	@Inject
+	private IEclipseContext context;
+
+	@PostConstruct
+	public void createControls (BorderPane pane, IWorkspace workspace) {
+	}
+}

@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Ui
-Bundle-SymbolicName: com.steelejr.xdev.client.ui
-Bundle-Version: 1.0.0.qualifier
-Bundle-Vendor: STEELEJR
-Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Bundle-ActivationPolicy: lazy

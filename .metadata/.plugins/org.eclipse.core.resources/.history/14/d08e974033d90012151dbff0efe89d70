@@ -1,0 +1,9 @@
+package com.steelejr.xdev.fx.client.ui.navigator;
+
+/**
+ * Navigator for resources.
+ */
+public class ResourceNavigator {
+
+	
+}

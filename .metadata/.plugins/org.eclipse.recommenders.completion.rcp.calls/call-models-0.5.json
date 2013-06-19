@@ -18,5 +18,10 @@
     "coordinate": "org.eclipse.equinox:org.eclipse.equinox.app:zip:call:1.0.0",
     "location": "/home/jroot/Desktop/juno_javafx/eclipse/plugins/org.eclipse.equinox.app_1.3.100.v20120522-1841.jar",
     "status": "RESOLVED"
+  },
+  "/home/jroot/Desktop/javafx/juno_javafx/eclipse/plugins/org.eclipse.e4.core.di_1.2.0.v20121024-173149.jar": {
+    "coordinate": "org.eclipse.e4:org.eclipse.e4.core.di:zip:call:1.0.0",
+    "location": "/home/jroot/Desktop/javafx/juno_javafx/eclipse/plugins/org.eclipse.e4.core.di_1.2.0.v20121024-173149.jar",
+    "status": "RESOLVED"
   }
 }

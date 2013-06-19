@@ -1,0 +1,16 @@
+package com.steelejr.xdev.fx.client.ui.navigator;
+
+import org.eclipse.core.resources.IWorkspace;
+
+import javafx.scene.layout.BorderPane;
+
+/**
+ * Navigator for resources.
+ */
+public class ResourceNavigator {
+
+
+	public ResourceNavigator (BorderPane pane, IWorkspace workspace) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.steelejr.xdev.fx.client.ui.navigator;
+
+import javafx.scene.layout.BorderPane;
+
+/**
+ * Navigator for resources.
+ */
+public class ResourceNavigator {
+
+
+	public void createControls (BorderPane pane, IWorkspace
+}
